@@ -13,11 +13,11 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.fromLTRB(15, 5, 10, 10),
+        padding: const EdgeInsets.fromLTRB(15, 0, 5, 10),
         child: Row(
           children: [
             Padding(
-              padding: const EdgeInsets.fromLTRB(1, 50, 10, 5),
+              padding: const EdgeInsets.fromLTRB(1, 50, 16, 5),
               child: Column(
                 children: [
                   Container(
@@ -110,7 +110,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(10, 90, 10, 10),
+              padding: const EdgeInsets.fromLTRB(10, 80, 10, 1),
               child: Row(
                 children: [
                   Column(
