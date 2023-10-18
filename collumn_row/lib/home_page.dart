@@ -13,11 +13,11 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.fromLTRB(15, 10, 10, 10),
+        padding: const EdgeInsets.fromLTRB(15, 5, 10, 10),
         child: Row(
           children: [
             Padding(
-              padding: const EdgeInsets.fromLTRB(1, 50, 1, 5),
+              padding: const EdgeInsets.fromLTRB(1, 50, 10, 5),
               child: Column(
                 children: [
                   Container(
@@ -63,7 +63,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(1, 40, 10, 10),
+              padding: const EdgeInsets.fromLTRB(1, 50, 10, 10),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -99,8 +99,8 @@ class HomePage extends StatelessWidget {
                       color: Color.fromARGB(255, 235, 4, 4),
                     ),
                     alignment: Alignment.center,
-                    height: 120,
-                    width: 120,
+                    height: 122,
+                    width: 122,
                     child: const Text(
                       '3',
                       style: TextStyle(color: Colors.white),
