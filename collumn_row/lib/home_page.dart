@@ -13,56 +13,12 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.fromLTRB(15, 30, 10, 10),
+        padding: const EdgeInsets.fromLTRB(15, 10, 10, 10),
         child: Row(
           children: [
-            Column(
-              children: [
-                Container(
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.rectangle,
-                    color: Color.fromARGB(255, 11, 130, 235),
-                  ),
-                  alignment: Alignment.center,
-                  height: 70,
-                  width: 70,
-                  child: const Text(
-                    '1',
-                    style: TextStyle(color: Colors.white, fontSize: 17),
-                  ),
-                ),
-                Container(
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.rectangle,
-                    color: Color.fromARGB(255, 226, 97, 5),
-                  ),
-                  alignment: Alignment.center,
-                  height: 90,
-                  width: 90,
-                  child: const Text(
-                    '2',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-                Container(
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.rectangle,
-                    color: Color.fromARGB(255, 235, 4, 4),
-                  ),
-                  alignment: Alignment.center,
-                  height: 110,
-                  width: 110,
-                  child: const Text(
-                    '3',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-              ],
-            ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(1, 1, 5, 10),
+              padding: const EdgeInsets.fromLTRB(1, 50, 1, 5),
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
                     decoration: const BoxDecoration(
@@ -70,8 +26,8 @@ class HomePage extends StatelessWidget {
                       color: Color.fromARGB(255, 11, 130, 235),
                     ),
                     alignment: Alignment.center,
-                    height: 70,
-                    width: 70,
+                    height: 80,
+                    width: 80,
                     child: const Text(
                       '1',
                       style: TextStyle(color: Colors.white, fontSize: 17),
@@ -83,8 +39,8 @@ class HomePage extends StatelessWidget {
                       color: Color.fromARGB(255, 226, 97, 5),
                     ),
                     alignment: Alignment.center,
-                    height: 90,
-                    width: 90,
+                    height: 100,
+                    width: 100,
                     child: const Text(
                       '2',
                       style: TextStyle(color: Colors.white),
@@ -96,8 +52,8 @@ class HomePage extends StatelessWidget {
                       color: Color.fromARGB(255, 235, 4, 4),
                     ),
                     alignment: Alignment.center,
-                    height: 110,
-                    width: 110,
+                    height: 120,
+                    width: 120,
                     child: const Text(
                       '3',
                       style: TextStyle(color: Colors.white),
@@ -107,7 +63,54 @@ class HomePage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(25, 90, 10, 10),
+              padding: const EdgeInsets.fromLTRB(1, 40, 10, 10),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      color: Color.fromARGB(255, 11, 130, 235),
+                    ),
+                    alignment: Alignment.center,
+                    height: 80,
+                    width: 80,
+                    child: const Text(
+                      '1',
+                      style: TextStyle(color: Colors.white, fontSize: 17),
+                    ),
+                  ),
+                  Container(
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      color: Color.fromARGB(255, 226, 97, 5),
+                    ),
+                    alignment: Alignment.center,
+                    height: 100,
+                    width: 100,
+                    child: const Text(
+                      '2',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                  Container(
+                    decoration: const BoxDecoration(
+                      shape: BoxShape.rectangle,
+                      color: Color.fromARGB(255, 235, 4, 4),
+                    ),
+                    alignment: Alignment.center,
+                    height: 120,
+                    width: 120,
+                    child: const Text(
+                      '3',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(10, 90, 10, 10),
               child: Row(
                 children: [
                   Column(
@@ -119,8 +122,8 @@ class HomePage extends StatelessWidget {
                           color: Color.fromARGB(255, 11, 130, 235),
                         ),
                         alignment: Alignment.center,
-                        height: 70,
-                        width: 70,
+                        height: 80,
+                        width: 80,
                         child: const Text(
                           '1',
                           style: TextStyle(color: Colors.white, fontSize: 17),
@@ -132,8 +135,8 @@ class HomePage extends StatelessWidget {
                           color: Color.fromARGB(255, 226, 97, 5),
                         ),
                         alignment: Alignment.center,
-                        height: 90,
-                        width: 90,
+                        height: 100,
+                        width: 100,
                         child: const Text(
                           '2',
                           style: TextStyle(color: Colors.white),
@@ -145,8 +148,8 @@ class HomePage extends StatelessWidget {
                           color: Color.fromARGB(255, 235, 4, 4),
                         ),
                         alignment: Alignment.center,
-                        height: 110,
-                        width: 110,
+                        height: 120,
+                        width: 120,
                         child: const Text(
                           '3',
                           style: TextStyle(color: Colors.white),
