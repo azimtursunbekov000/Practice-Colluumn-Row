@@ -8,8 +8,17 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black45,
-        title: Text(
-          'Flutter',
+        title: Column(
+          children: [
+            Text(
+              "Flutter",
+              style: TextStyle(fontSize: 25),
+            ),
+            Text(
+              "ITC BOOTCAMP",
+              style: TextStyle(fontSize: 18),
+            ),
+          ],
         ),
       ),
       body: Padding(
