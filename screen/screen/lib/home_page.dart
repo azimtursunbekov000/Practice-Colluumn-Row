@@ -9,8 +9,8 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Color.fromARGB(115, 156, 152, 152),
-        title: Center(
-          child: const Column(
+        title: const Center(
+          child: Column(
             children: [
               Text(
                 'Flutter',
@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          const Text(
+                          Text(
                             "Модель:",
                             style: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -99,7 +99,7 @@ class HomePage extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          const Text(
+                          Text(
                             "Цена:",
                             style: TextStyle(
                               fontWeight: FontWeight.w700,
@@ -120,7 +120,7 @@ class HomePage extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
-                          const Text(
+                          Text(
                             "Год выпуска",
                             style: TextStyle(
                               fontWeight: FontWeight.w700,
