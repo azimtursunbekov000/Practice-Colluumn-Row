@@ -11,6 +11,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Color.fromARGB(115, 156, 152, 152),
         title: const Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 'Flutter',
@@ -31,14 +32,14 @@ class HomePage extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.fromLTRB(10, 50, 10, 10),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Container(
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30),
                   color: Color(0xFF1417d9)),
-              width: 370,
-              height: 600,
+              width: 360,
+              height: 500,
               child: Padding(
                 padding: const EdgeInsets.all(5),
                 child: Container(
@@ -55,7 +56,7 @@ class HomePage extends StatelessWidget {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
-                            const Text(
+                            Text(
                               "Марка:",
                               style: TextStyle(
                                 fontWeight: FontWeight.w700,
@@ -139,6 +140,48 @@ class HomePage extends StatelessWidget {
                         ],
                       ),
                       SizedBox(height: 50),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          Text(
+                            "Коробка передач:",
+                            style: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              fontSize: 20,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Text(
+                            "1АКПП",
+                            style: TextStyle(
+                              fontWeight: FontWeight.w800,
+                              fontSize: 20,
+                              color: Colors.white,
+                            ),
+                          )
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Text(
+                            "Объем:",
+                            style: TextStyle(
+                              fontWeight: FontWeight.w700,
+                              fontSize: 20,
+                              color: Colors.white,
+                            ),
+                          ),
+                          Text(
+                            "2.0 л",
+                            style: TextStyle(
+                              fontWeight: FontWeight.w800,
+                              fontSize: 20,
+                              color: Colors.white,
+                            ),
+                          )
+                        ],
+                      ),
                     ],
                   ),
                 ),
