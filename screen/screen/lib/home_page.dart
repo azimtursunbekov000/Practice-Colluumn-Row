@@ -54,7 +54,7 @@ class HomePage extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.only(top: 50),
                         child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
                               "Марка:",
