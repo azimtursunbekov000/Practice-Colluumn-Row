@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black45,
-        title: Row(
+        title: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
@@ -120,7 +120,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(10, 80, 10, 1),
+              padding: const EdgeInsets.fromLTRB(8, 80, 10, 1),
               child: Row(
                 children: [
                   Column(
