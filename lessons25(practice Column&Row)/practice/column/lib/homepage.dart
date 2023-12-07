@@ -8,7 +8,7 @@ class ColumnExample extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black38,
-        title: Column(
+        title: const Column(
           children: [
             Text("Flutter"),
             Text("ITC BOOTCAMP"),
@@ -29,7 +29,7 @@ class ColumnExample extends StatelessWidget {
                 borderRadius: BorderRadius.circular(50),
                 color: Colors.black,
               ),
-              child: Text(
+              child: const Text(
                 "1",
                 style: TextStyle(
                   color: Colors.white,
@@ -45,7 +45,7 @@ class ColumnExample extends StatelessWidget {
                 borderRadius: BorderRadius.circular(50),
                 color: Colors.black,
               ),
-              child: Text(
+              child: const Text(
                 "2",
                 style: TextStyle(
                   color: Colors.white,
@@ -61,7 +61,7 @@ class ColumnExample extends StatelessWidget {
                 borderRadius: BorderRadius.circular(50),
                 color: Colors.black,
               ),
-              child: Text(
+              child: const Text(
                 "3",
                 style: TextStyle(
                   color: Colors.white,
@@ -84,7 +84,7 @@ class ColumnRow extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black38,
-        title: Column(
+        title: const Column(
           children: [
             Text("ITC"),
             Text("BOOTCAMP"),
@@ -104,7 +104,7 @@ class ColumnRow extends StatelessWidget {
                   borderRadius: BorderRadius.circular(50),
                   color: Colors.black,
                 ),
-                child: Text(
+                child: const Text(
                   "1",
                   style: TextStyle(
                     color: Colors.white,
@@ -120,7 +120,7 @@ class ColumnRow extends StatelessWidget {
                   borderRadius: BorderRadius.circular(50),
                   color: Colors.black,
                 ),
-                child: Text(
+                child: const Text(
                   "1",
                   style: TextStyle(
                     color: Colors.white,
@@ -143,7 +143,7 @@ class ColumnRow extends StatelessWidget {
                       borderRadius: BorderRadius.circular(50),
                       color: Colors.black,
                     ),
-                    child: Text(
+                    child: const Text(
                       "2",
                       style: TextStyle(
                         color: Colors.white,
@@ -159,7 +159,7 @@ class ColumnRow extends StatelessWidget {
                       borderRadius: BorderRadius.circular(50),
                       color: Colors.black,
                     ),
-                    child: Text(
+                    child: const Text(
                       "2",
                       style: TextStyle(
                         color: Colors.white,
@@ -184,7 +184,7 @@ class ColumnRow extends StatelessWidget {
                       borderRadius: BorderRadius.circular(50),
                       color: Colors.black,
                     ),
-                    child: Text(
+                    child: const Text(
                       "3",
                       style: TextStyle(
                         color: Colors.white,
@@ -200,7 +200,7 @@ class ColumnRow extends StatelessWidget {
                       borderRadius: BorderRadius.circular(50),
                       color: Colors.black,
                     ),
-                    child: Text(
+                    child: const Text(
                       "3",
                       style: TextStyle(
                         color: Colors.white,
@@ -226,7 +226,7 @@ class ColumnRow2 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black38,
-        title: Column(
+        title: const Column(
           children: [
             Text("ITC"),
             Text("BOOTCAMP"),
@@ -248,7 +248,7 @@ class ColumnRow2 extends StatelessWidget {
                     borderRadius: BorderRadius.circular(50),
                     color: Colors.black,
                   ),
-                  child: Text(
+                  child: const Text(
                     "1",
                     style: TextStyle(
                       color: Colors.white,
@@ -265,7 +265,7 @@ class ColumnRow2 extends StatelessWidget {
                     borderRadius: BorderRadius.circular(50),
                     color: Colors.black,
                   ),
-                  child: Text(
+                  child: const Text(
                     "2",
                     style: TextStyle(
                       color: Colors.white,
@@ -282,7 +282,7 @@ class ColumnRow2 extends StatelessWidget {
                     borderRadius: BorderRadius.circular(50),
                     color: Colors.black,
                   ),
-                  child: Text(
+                  child: const Text(
                     "3",
                     style: TextStyle(
                       color: Colors.white,
@@ -307,7 +307,7 @@ class ColumnRow2 extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50),
                         color: Colors.black,
                       ),
-                      child: Text(
+                      child: const Text(
                         "4",
                         style: TextStyle(
                           color: Colors.white,
@@ -324,7 +324,7 @@ class ColumnRow2 extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50),
                         color: Colors.black,
                       ),
-                      child: Text(
+                      child: const Text(
                         "5",
                         style: TextStyle(
                           color: Colors.white,
@@ -341,7 +341,7 @@ class ColumnRow2 extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50),
                         color: Colors.black,
                       ),
-                      child: Text(
+                      child: const Text(
                         "6",
                         style: TextStyle(
                           color: Colors.white,
@@ -368,7 +368,7 @@ class ColumnRow2 extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50),
                         color: Colors.black,
                       ),
-                      child: Text(
+                      child: const Text(
                         "7",
                         style: TextStyle(
                           color: Colors.white,
@@ -385,7 +385,7 @@ class ColumnRow2 extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50),
                         color: Colors.black,
                       ),
-                      child: Text(
+                      child: const Text(
                         "8",
                         style: TextStyle(
                           color: Colors.white,
@@ -402,7 +402,7 @@ class ColumnRow2 extends StatelessWidget {
                         borderRadius: BorderRadius.circular(50),
                         color: Colors.black,
                       ),
-                      child: Text(
+                      child: const Text(
                         "9",
                         style: TextStyle(
                           color: Colors.white,
@@ -427,7 +427,7 @@ class ColumnRow2 extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50),
                             color: Colors.black,
                           ),
-                          child: Text(
+                          child: const Text(
                             "-",
                             style: TextStyle(
                               color: Colors.white,
@@ -444,7 +444,7 @@ class ColumnRow2 extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50),
                             color: Colors.black,
                           ),
-                          child: Text(
+                          child: const Text(
                             "+",
                             style: TextStyle(
                               color: Colors.white,
@@ -461,7 +461,7 @@ class ColumnRow2 extends StatelessWidget {
                             borderRadius: BorderRadius.circular(50),
                             color: Colors.black,
                           ),
-                          child: Text(
+                          child: const Text(
                             "+",
                             style: TextStyle(
                               color: Colors.white,
